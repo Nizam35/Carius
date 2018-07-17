@@ -1,0 +1,485 @@
+/*header*/
+body{
+  margin: 0;
+  padding: 0;
+   background-color: #000;
+}
+  .navshrink{
+  background-color: #ffffff;
+  height: 70px;
+  width: 100%;
+  border-bottom:#000 1px solid;
+  padding: 10px;
+ overflow: hidden;
+ z-index: 999;
+ position: fixed;
+}
+ .container-s{
+    background-color: #ffffff;
+    height: 70px;
+    width: 100%;
+    border-bottom:#000 1px solid;
+    padding: 10px;
+   overflow: hidden;
+   z-index: 999;
+   position: fixed;
+  
+  }
+  .navshrink #branding{
+    margin-left: 83px;
+    float: left;
+     width: 20%;
+     text-transform: uppercase;
+    margin-top: 2px;
+  }
+  .container-s #branding {
+    margin-left: 83px;
+    float: left;
+     width: 20%;
+     text-transform: uppercase;
+    margin-top: 2px;
+  }
+  
+  .container-s nav{
+    margin-top: -8px;
+    float: right;
+    margin-right: 110px;
+    padding-top: 20px;
+  }
+  .navshrink nav{
+    margin-top: -8px;
+    float: right;
+    margin-right: 110px;
+    padding-top: 20px;
+  }
+  
+  .container-s ul li{
+     
+      list-style: none;
+      display: inline-block;
+      margin:0 50px -40px 0;
+      height: 20px;
+     
+  }
+  .navshrink ul li{
+     
+    list-style: none;
+    display: inline-block;
+    margin:0 50px -40px 0;
+    height: 20px;
+   
+  }
+  
+  .container-s ul li a{
+   text-decoration: none;
+    text-transform: uppercase;
+      font-size:14px; ;
+      font-weight:bold;
+    letter-spacing: 0px;
+    color: #777;
+  
+  
+  
+  }
+  .navshrink ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+      font-size:14px; ;
+      font-weight:bold;
+    letter-spacing: 0px;
+    color: #777;
+  }
+  .current a{
+   border-bottom:#ADD8E6 1.8px solid;
+  }
+  
+  
+  header nav ul li a:hover{
+    border-bottom:#ADD8E6 1.8px solid;
+    border-width:1.8px;
+  }
+  header nav ul li a:hover{
+    width: 100%;
+  }
+  
+  /*BOOTSTRAP SEC*/
+  .section1{
+    overflow: hidden;
+    min-height: 700px;
+    background-color: royalblue;
+    overflow: hidden;
+}
+.trainer{
+  min-height:700px;
+  background-image: url('../img/trainers-head.jpg');
+  background-size:cover;
+  transform: translate(0,70px);
+}
+.box{
+  margin: 0;
+  padding: 0;
+}
+div > #work{
+color: #fff;
+margin-top:200px;
+margin-left: 50px;
+}
+#work h2{
+  margin-right: 370px;
+  margin-bottom: 50px;
+}
+
+#learn{
+  margin-top: 60px;
+  margin-left: 50px;
+}
+#learn a{
+  color:#2e2e2e;;
+  text-decoration: none;
+  text-transform: uppercase;
+ font-weight: bold;
+ letter-spacing: 0;
+ font-size: 16px;
+}
+/* end of section 2*/
+
+/* section 3 with showcase 1 using bootstrap*/
+
+.contu{
+  background-color: #fff;
+  padding:50px;
+  min-height: 700px;
+  overflow: hidden;
+  
+}
+.rowji{
+  min-height: 200px;
+  display: block;
+  padding-top: 80px;
+}
+.rowji h3{
+  
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0;
+  font-weight: bold;
+}
+.rowji p{
+  text-align: center;
+  margin-left: 380px;
+  margin-right: 380px;
+  font-size: 22px;
+  color:#8f8f8f;
+}
+
+.card{
+  display: inline-block;
+  width:300px;
+  margin-right:-10px;
+  margin-left: 80px;
+  margin-top: 50px;
+ min-height:300px;
+  box-shadow: 0px 30px 40px rgba(0,0,0,.1);
+  position: relative;
+}
+
+.card img{
+ align-items: center;
+ margin-left:130px;;
+
+ margin-top: 20px;
+ 
+}
+
+.card-body {
+  text-align: center;
+}
+.card-body h4{
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin-top: 20px;
+
+}
+
+/* showcase 1 is ending*/
+
+
+/* Show case 2 is starting*/
+
+#showcase2{
+  background-color: red;
+  min-height: 800px;
+  overflow: hidden;
+  
+}
+#showcase1 .car{
+  background-color: #ccc;
+  min-height: 800px;
+}
+.c1{
+  
+  border: 1px;
+  min-height:570px; 
+  background-image: url('../img/trainers-bg-01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  
+
+}
+.c1:hover{
+ 
+  min-height: 574px;
+}
+
+
+.c2{
+  background-color:#0072ca;
+  border: 1px;
+  min-height:570px; 
+  display: block;
+  color:#fff;
+}
+
+
+#title1 {
+  text-transform: uppercase;
+ 
+  font-size: 20px;
+  margin-top: 70px;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin-left: 26px;
+}
+.c2 h3{
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.c2 p{
+  font-size: 16px;
+  letter-spacing: 0;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.c2 img{
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.c2:hover{
+  opacity: 0.9;
+}
+
+.c3{
+  
+  border: 1px;
+  height:570px; 
+  background-image: url('../img/trainers-bg-02.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:right; 
+
+
+}
+
+
+
+.c4{
+  background-color:#67ff88;
+  border: 1px;
+  min-height:570px; 
+  display: block;
+  color:#fff;
+}
+
+
+#title2 {
+  text-transform: uppercase;
+ 
+  font-size: 20px;
+  margin-top: 70px;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin-left: 26px;
+}
+.c4 h3{
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.c4 p{
+  font-size: 16px;
+  letter-spacing: 0;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.c4 img{
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.c4:hover{
+  opacity: 0.9;
+}
+
+
+.c5{
+  background-color:#78379d;
+  border: 1px;
+  min-height:570px; 
+  display: block;
+  color:#fff;
+}
+
+
+#title3 {
+  text-transform: uppercase;
+ 
+  font-size: 20px;
+  margin-top: 70px;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin-left: 26px;
+}
+.c5 h3{
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.c5 p{
+  font-size: 16px;
+  letter-spacing: 0;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.c5 img{
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.c5:hover{
+  opacity: 0.9;
+}
+
+
+.c6{
+  
+  border: 1px;
+  height:570px; 
+  background-image: url('../img/trainers-bg-03.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:right; 
+
+
+}
+
+.c7{
+  background-color:#fe4f20;
+  border: 1px;
+  min-height:570px; 
+  display: block;
+  color:#fff;
+}
+
+
+#title4 {
+  text-transform: uppercase;
+ 
+  font-size: 20px;
+  margin-top: 70px;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin-left: 26px;
+}
+.c7 h3{
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.c7 p{
+  font-size: 16px;
+  letter-spacing: 0;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.c7 img{
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.c7:hover{
+  opacity: 0.9;
+}
+
+
+.c8{
+  
+  border: 1px;
+  height:570px; 
+  background-image: url('../img/trainers-bg-04.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center; 
+
+
+}
+/* end of showcase 2*/
+#showcase3{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-image: url('../img/footer-bg.jpg');
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center; 
+}
+
+
+.footrow{
+ margin-top: 200px;
+ margin-left: 150px;
+ font-size: 50px;
+  padding: 90px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+#follow{
+  text-align: center;
+  margin-left: 170px;
+  margin-right: 170px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  color: #fff;
+}
+
+.fonts{
+  margin-top: 60px;
+  min-height: 100px;
+}
+.fonts a{
+  color:#ccc;
+  
+}
